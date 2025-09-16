@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <style>
+        body{
+            background-color:rgb(244, 243, 243);
+            padding: 0;
+            margin:0;
+        }
+        .marque{
+            padding:50px;
+            font-size: 23px;
+        }
+        table,tr,th,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+            width:800px;
+            height: 50px;
+            text-align: center;
+            font-size: 18px;
+        }
+        .table-data{
+            display: flex;
+            justify-content: center;   
+        }
+        .item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h2{
+            font-size: 30px;
+        }
+        .item1{
+            display: flex;
+            flex-direction: row;
+         justify-content: center;
+            gap: 30px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div>
+        <marquee class="marque" scrollamount="15">*****Welcome to my favourite Movies*****</marquee>
+    </div>
+    <h2 style="text-align: center;">My Favourite Movies</h2>
+    <div class="table-data">
+        
+        <table>
+            <tr>
+                <th>Movie Name</th>
+                <th>Genre</th>
+                <th>Year</th>
+                <th>Rating</th>
+            </tr>
+            <tr>
+                <td>Joe</td>
+                <td>Drama-Romance</td>
+                <td>2023</td>
+                <td>7.4/10</td>
+            </tr>
+            <tr>
+                <td>Don</td>
+                <td>Comedy-Drama</td>
+                <td>2022</td>
+                <td>8/10</td>
+            </tr>
+            <tr>
+                <td>Twilight 2</td>
+                <td>Drama-adventure</td>
+                <td>2009</td>
+                <td>4.8/10</td>
+            </tr>
+        </table>
+    </div>
+        <h2 style="text-align: center;">Favourite Actors</h2>
+    <div class="item1">
+        
+        <img src="actor.jpeg” alt="actress"  height="200px" class="actor">
+        <img src="https://i.pinimg.com/736x/e4/5b/7d/e45b7d890cb5a82dd0d0a90cbf3b9ed5.jpg" width="150px" class="actor">
+    </div>
+    <div class="item">
+        <h2>Movie Trailer</h2>
+        <video src="C:\Users\DELL\Downloads\don movie trailer.mp4" controls width="450px"></video>
+    </div>
+    <div class="item">
+<h2>Movie Song </h2>
+        <audio src="C:\Users\DELL\Downloads\don movie song.mp3" controls></audio>
+    </div>
+</div>
+</body>
+</html>
+
